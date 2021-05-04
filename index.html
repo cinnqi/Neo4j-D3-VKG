@@ -5,7 +5,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>漏洞知识图谱(作者：程星琪，扬大软件工程)</title>
+		<title>Vulnerability Knowledge Graph(Author：Xingqi,Cheng.)</title>
 		<meta name="description" content="漏洞可视化系统，能够显示漏洞关联信息并提供搜索功能" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="" />
@@ -306,7 +306,7 @@
 	</style>
 	<body>
 		<!-- 绘制标题样式 -->
-		<h1 style="color:#fff;font-size:30px;margin-bottom:10px;text-align:center;margin-left:40px;">漏洞知识图谱</h1>
+		<h1 style="color:#fff;font-size:30px;margin-bottom:10px;text-align:center;margin-left:40px;">Vulnerability Knowledge Graph</h1>
 		<!-- 第一个布局 绘制知识图谱主图 -->
 		<div style="text-align: center; position:relative;">
 			
@@ -319,9 +319,9 @@
 			</div>
 			<!-- 绘制模式选择 -->
 			<div id="mode">
-				<span class="active" style="border-top-right-radius:0;border-bottom-right-radius:0;">节点</span>
+				<span class="active" style="border-top-right-radius:0;border-bottom-right-radius:0;">Circle</span>
 				<span
-					style="border-top-left-radius:0;border-bottom-left-radius:0;position:relative;left:-5px;">文字</span>
+					style="border-top-left-radius:0;border-bottom-left-radius:0;position:relative;left:-5px;">Text</span>
 			</div>
 
 			<!-- 显示切换1 -->
@@ -386,8 +386,12 @@
 					$('#indicator').append("<div><span style='background-color:" + colors[i] + "'></span>" + names[i] +
 						"</div>")
 				}
-				var help = ['小助手', '1.开始如果没有节点和边的网状可视化显示，刷新便可出现', '2.鼠标放置在任意节点上，出现和此节点相关的所有节点及之间的关系，右侧自动呈现该节点相关信息', '3.搜索框中输入关键词，呈现此关键词所有相关节点，并且此时鼠标位于某个节点上方时移开鼠标能够保持知识图谱当前状态', '4.模式切换按钮可切换对节点的不同可视化表示，结点或是文字', '5.左侧不同颜色的条形表示不同类型的节点，On/Off切换开关可打开或关闭同样类型所有节点的可视化显示'];
-    			$('#tips').append("<div><span>" + help[0] + "</span></div>")
+				//var help = ['小助手', '1.开始如果没有节点和边的网状可视化显示，刷新便可出现', '2.鼠标放置在任意节点上，出现和此节点相关的所有节点及之间的关系，右侧自动呈现该节点相关信息', '3.搜索框中输入关键词，呈现此关键词所有相关节点，并且此时鼠标位于某个节点上方时移开鼠标能够保持知识图谱当前状态', '4.模式切换按钮可切换对节点的不同可视化表示，结点或是文字', '5.左侧不同颜色的条形表示不同类型的节点，On/Off切换开关可打开或关闭同样类型所有节点的可视化显示'];
+    			var help = ['TIPS', '1.If there is no visualization of Graph, refresh will appear.', '2.Place the mouse on any node, all the nodes related to this node and their relationship will appear', 
+				'3.Enter a keyword in the search box to display all related nodes of this keyword',
+				'4.Extracted INFO: information extracted from unstructured text(CVE summary)','Keys: information from structured text',
+				'5.All the information is from "http://cve.mitre.org/"'];
+				$('#tips').append("<div><span>" + help[0] + "</span></div>")
     			for (var i = 1; i < help.length; i++) {
         			$('#tips').append("<div>" + help[i] +"</div>")
     			}
@@ -713,7 +717,7 @@
 					//点击的span被激活
 					$(this).addClass('active');
 					//text隐藏 nodes显示
-					if ($(this).text() == '节点') {
+					if ($(this).text() == 'Circle') {
 						$('.texts text').hide();
 						$('.nodes circle').show();
 					} else {
