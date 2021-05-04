@@ -5,18 +5,21 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>漏洞知识图谱</title>
-		<meta name="description" content="" />
+		<title>漏洞知识图谱(作者：程星琪，扬大软件工程)</title>
+		<meta name="description" content="漏洞可视化系统，能够显示漏洞关联信息并提供搜索功能" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="" />
 		<link rel="shortcut icon" href="">
+		
+		<!--	-->
 		<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
 		<link href="https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/graph.css" />
+
 	</head>
 
-	<!-- 定义样式 -->
+	
 <style>
 	/*body的样式*/
 	body {
@@ -32,8 +35,12 @@
 		stroke-opacity: 0.8;        /*线的透明度*/
 	}
 	.links line.inactive {
-		/*display: none !important;*/
-		stroke-opacity: 0;
+		display: none !important;
+
+	}
+	.links line.enterinactive {
+		stroke-opacity: 0.2;
+
 	}
 	
 	.linetexts {
@@ -49,13 +56,19 @@
 	
 	.nodes circle {
 		stroke: #fff;
-		stroke-width: 1.5px;        /*圆的描边宽度*/
+		stroke-width: 2px;        /*圆的描边宽度*/
 	}
 	.nodes circle:hover {
 		cursor: pointer;
 	}
 	.nodes circle.inactive {
 		display: none !important;
+		
+	}
+
+	.nodes circle.enterinactive {
+		
+		opacity:0.2;
 	}
 	
 	/*默认显示所有的圆圈，进入模式切换之后才会显示text*/
@@ -67,8 +80,13 @@
 	}
 	.texts text.inactive {
 		display: none !important;
+		/*stroke-opacity: 0;*/
 	}
-
+	.texts text.enterinactive {
+		
+		opacity:0.2;
+	}
+	
 	.footer{
 	height: 30px;
 	line-height: 35px;
@@ -76,7 +94,7 @@
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	background-color: #272b30;
+	/*background-color: #272b30;*/
 	color: #fff;
 	font-family: Arial;
 	font-size: 14px;
@@ -241,7 +259,21 @@
 		font-size: 12px;
 		width:230px;
 	}
+
+	/*count的样式*/
+	#count {
+		position: absolute;
+		bottom: 500px;
+		right: 25px;
+		text-align: right;
+		width: 200px;
+		color: #fff;
+		font-size: 18px;
+	}
 	
+	#count h4 {
+		color: #fff;
+		}
 	/*indicator中每一个小的div/色块/图例的样式*/
 	#tips>div {
 		margin-bottom: 5px; 
@@ -256,6 +288,7 @@
 		margin-right: 8px;
 		font-size: 16px;
 	}
+
 	
 	/*搜索框的样式*/
 	#search input {
@@ -276,8 +309,11 @@
 		<h1 style="color:#fff;font-size:30px;margin-bottom:10px;text-align:center;margin-left:40px;">漏洞知识图谱</h1>
 		<!-- 第一个布局 绘制知识图谱主图 -->
 		<div style="text-align: center; position:relative;">
+			
 			<svg width="900" height="600" style="margin-right:0px;margin-bottom:-40px;" id="svg1">
 			</svg>
+			<!--
+			<svg width="860" height="560" style="margin-left: 30px;margin-bottom: -150px" id="svg1"></svg>-->
 			<!-- 绘制图例 -->
 			<div id="indicator">
 			</div>
@@ -315,6 +351,10 @@
 			</div>
 			<!-- 提示 -->
 			<div id="tips"></div>
+			<!-- 计数 -->
+			<div id="count">
+				<h4></h4>
+			</div>
 			<div class="footer">
 				<p>Copyright©2021 by Xingqi,Cheng. All Rights Reserved</p>
 				
@@ -361,7 +401,7 @@
 					}))
 					.force("charge", d3.forceManyBody())
 					.force("center", d3.forceCenter(width / 2, height / 2))
-					.force("collision", d3.forceCollide(18)) // 碰撞检测
+					.force("collision", d3.forceCollide(20)) // 碰撞检测
 				// 图数据
 				var graph
 				let nodes = []
@@ -402,6 +442,11 @@
 					}
 					console.log(nodes)
 					console.log(links)
+					console.log(links.length)
+					console.log(nodes.length)
+					var countnodes = nodes.length
+					var countlinks = links.length
+					$('#count').append("<div><span>" + "There are "+ countnodes + " nodes " + "and " + countlinks + " links in total "+ "</span></div>")
 					// D3映射数据至HTML中
 					// g用于绘制所有边,selectALL选中所有的line,并绑定数据data(graph.links),enter().append("line")添加元素
 					// 数据驱动文档,设置边的粗细
@@ -449,10 +494,10 @@
 									size = 15;
 									break;
 								case labels[2]:
-									size = 12;
+									size = 13;
 									break;
 								default:
-									size = 12;
+									size = 13;
 									break;
 							}
 							return size
@@ -620,6 +665,23 @@
                 			.attr("dy", function(d) {
                     			return d.y;
                 			});
+						// text.attr('transform', function(d) {
+						// 	let size = 15
+						// 	switch (d.label) {
+						// 		case labels[0]:
+						// 			break;
+						// 		case labels[1]:
+						// 			size = 14;
+						// 			break;
+						// 		case labels[2]:
+						// 			size = 13;
+						// 			break;
+						// 		default:
+						// 			size = 12;
+						// 			break;
+						// 	}
+						// 	return 'translate(' + (d.x - size / 2) + ',' + (d.y + size / 2) + ')';
+						// });
 						     
 					}
 				});
