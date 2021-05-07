@@ -9,20 +9,24 @@ This is my graduation project, the system is defined as a platform for extractin
 
 For example, the text below is a description of CVE-2009-1194, the description is from "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1194"
 
-> ```
+
 > Integer overflow in the pango_glyph_string_set_size function in pango/glyphstring.c in Pango before 1.24 allows context-dependent attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a long glyph string that triggers a heap-based buffer overflow, as demonstrated by a long document.location value in Firefox. 
-> ```
+
 
 Basically, what I need to do is extracting the information from description above, factors like cause, location, consequence, version need to be recognized. For this specific instance, the extracted info should like this:
 
-> ```
-> cause:Integer overflow 
-> location:in the pango_glyph_string_set_size function in pango/glyphstring.c
-> version:in Pango before 1.24 
-> attacker:context-dependent attackers
-> consequence:denial of service (application crash) or possibly execute arbitrary code
-> triggering operation:a long glyph string
-> ```
+>**cause:** Integer overflow
+>
+> **location:** in the pango_glyph_string_set_size function in pango/glyphstring.c
+> 
+> **version:** in Pango before 1.24
+> 
+> **attacker:** context-dependent attackers
+> 
+> **consequence:** denial of service (application crash) or possibly execute arbitrary code
+> 
+> **triggering operation:** a long glyph string
+
 
  After extracting info and adding some keys of vulnerabilities from CVE website, we can conduct a  knowledge graph and visualize it.
 
@@ -55,6 +59,7 @@ There is a lot of work to be done before visualizing the knowledge graph.
    |       location: 755       |       location: 84       |
    |        cause: 730         |        cause: 75         |
    |   happened scenario: 64   |   happened scenario: 9   |
+   
 
    After adjusting the parameters and countless times of training, finally the model performance as below:
 
