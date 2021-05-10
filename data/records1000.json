@@ -11,6 +11,60 @@
         }
       },
 "end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1638,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2012-5131"
+            }
+          },
+          "relationship": {
+"identity": 37427,
+"start": 1638,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1638,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2012-5131"
+        }
+      },
+"end": {
 "identity": 16387,
 "labels": [
           "commit id"
@@ -551,60 +605,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1638,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2012-5131"
-            }
-          },
-          "relationship": {
-"identity": 18077,
-"start": 1638,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1638,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2012-5131"
-        }
-      },
-"end": {
 "identity": 60,
 "labels": [
           "attacker"
@@ -640,6 +640,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1639,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2015-1215"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1639,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2015-1215"
+            }
+          },
+          "relationship": {
+"identity": 39182,
+"start": 1639,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -1145,60 +1199,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1639,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2015-1215"
-            }
-          },
-          "relationship": {
-"identity": 20595,
-"start": 1639,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1639,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2015-1215"
-        }
-      },
-"end": {
 "identity": 17441,
 "labels": [
           "cause"
@@ -1288,6 +1288,60 @@
             ],
 "properties": {
 "attacker": "attacker who convinced a user to install a malicious extension"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1640,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-14040"
+        }
+      },
+"end": {
+"identity": 2227,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-787"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1640,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-14040"
+            }
+          },
+          "relationship": {
+"identity": 35768,
+"start": 1640,
+"end": 2227,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2227,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-787"
             }
           }
         }
@@ -1847,60 +1901,6 @@
         }
       },
 "end": {
-"identity": 2227,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-787"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1640,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-14040"
-            }
-          },
-          "relationship": {
-"identity": 6818,
-"start": 1640,
-"end": 2227,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2227,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-787"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1640,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-14040"
-        }
-      },
-"end": {
 "identity": 609,
 "labels": [
           "cause"
@@ -1936,6 +1936,60 @@
             ],
 "properties": {
 "cause": "An invalid write access"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1643,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2015-1474"
+        }
+      },
+"end": {
+"identity": 2212,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-189"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1643,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2015-1474"
+            }
+          },
+          "relationship": {
+"identity": 32610,
+"start": 1643,
+"end": 2212,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2212,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-189"
             }
           }
         }
@@ -2603,60 +2657,6 @@
         }
       },
 "end": {
-"identity": 2212,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-189"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1643,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2015-1474"
-            }
-          },
-          "relationship": {
-"identity": 14809,
-"start": 1643,
-"end": 2212,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2212,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-189"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1643,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2015-1474"
-        }
-      },
-"end": {
 "identity": 19752,
 "labels": [
           "cause"
@@ -2746,6 +2746,60 @@
             ],
 "properties": {
 "attacker": "attackers to"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1644,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-6310"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1644,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-6310"
+            }
+          },
+          "relationship": {
+"identity": 32430,
+"start": 1644,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -3305,60 +3359,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1644,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-6310"
-            }
-          },
-          "relationship": {
-"identity": 8087,
-"start": 1644,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1644,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-6310"
-        }
-      },
-"end": {
 "identity": 713,
 "labels": [
           "cause"
@@ -3394,6 +3394,60 @@
             ],
 "properties": {
 "cause": "type confusions"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1645,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2010-5331"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1645,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2010-5331"
+            }
+          },
+          "relationship": {
+"identity": 39418,
+"start": 1645,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -3899,60 +3953,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1645,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2010-5331"
-            }
-          },
-          "relationship": {
-"identity": 14063,
-"start": 1645,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1645,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2010-5331"
-        }
-      },
-"end": {
 "identity": 1043,
 "labels": [
           "cause"
@@ -3988,6 +3988,114 @@
             ],
 "properties": {
 "cause": "a range check issue"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1646,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-2416"
+        }
+      },
+"end": {
+"identity": 2215,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-264"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1646,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-2416"
+            }
+          },
+          "relationship": {
+"identity": 33261,
+"start": 1646,
+"end": 2215,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2215,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-264"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1646,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-2416"
+        }
+      },
+"end": {
+"identity": 2215,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-264"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1646,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-2416"
+            }
+          },
+          "relationship": {
+"identity": 33293,
+"start": 1646,
+"end": 2215,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2215,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-264"
             }
           }
         }
@@ -5087,114 +5195,6 @@
         }
       },
 "end": {
-"identity": 2215,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-264"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1646,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-2416"
-            }
-          },
-          "relationship": {
-"identity": 17053,
-"start": 1646,
-"end": 2215,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2215,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-264"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1646,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-2416"
-        }
-      },
-"end": {
-"identity": 2215,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-264"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1646,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-2416"
-            }
-          },
-          "relationship": {
-"identity": 15912,
-"start": 1646,
-"end": 2215,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2215,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-264"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1646,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-2416"
-        }
-      },
-"end": {
 "identity": 19760,
 "labels": [
           "cause"
@@ -5392,6 +5392,60 @@
             ],
 "properties": {
 "attacker": "attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1647,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-9841"
+        }
+      },
+"end": {
+"identity": 2212,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-189"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1647,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-9841"
+            }
+          },
+          "relationship": {
+"identity": 33120,
+"start": 1647,
+"end": 2212,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2212,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-189"
             }
           }
         }
@@ -5951,60 +6005,6 @@
         }
       },
 "end": {
-"identity": 2212,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-189"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1647,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-9841"
-            }
-          },
-          "relationship": {
-"identity": 9438,
-"start": 1647,
-"end": 2212,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2212,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-189"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1647,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-9841"
-        }
-      },
-"end": {
 "identity": 98,
 "labels": [
           "attacker"
@@ -6040,6 +6040,60 @@
             ],
 "properties": {
 "attacker": "context-dependent attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1648,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2012-2887"
+        }
+      },
+"end": {
+"identity": 2272,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-399"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1648,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2012-2887"
+            }
+          },
+          "relationship": {
+"identity": 41098,
+"start": 1648,
+"end": 2272,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2272,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-399"
             }
           }
         }
@@ -6599,60 +6653,6 @@
         }
       },
 "end": {
-"identity": 2272,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-399"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1648,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2012-2887"
-            }
-          },
-          "relationship": {
-"identity": 18095,
-"start": 1648,
-"end": 2272,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2272,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-399"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1648,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2012-2887"
-        }
-      },
-"end": {
 "identity": 17342,
 "labels": [
           "cause"
@@ -6742,6 +6742,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1649,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-7916"
+        }
+      },
+"end": {
+"identity": 2246,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-362"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1649,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-7916"
+            }
+          },
+          "relationship": {
+"identity": 38364,
+"start": 1649,
+"end": 2246,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2246,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-362"
             }
           }
         }
@@ -7301,60 +7355,6 @@
         }
       },
 "end": {
-"identity": 2246,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-362"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1649,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-7916"
-            }
-          },
-          "relationship": {
-"identity": 4503,
-"start": 1649,
-"end": 2246,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2246,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-362"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1649,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-7916"
-        }
-      },
-"end": {
 "identity": 17081,
 "labels": [
           "cause"
@@ -7444,6 +7444,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1650,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2012-2891"
+        }
+      },
+"end": {
+"identity": 2242,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-200"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1650,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2012-2891"
+            }
+          },
+          "relationship": {
+"identity": 36416,
+"start": 1650,
+"end": 2242,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2242,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-200"
             }
           }
         }
@@ -8003,60 +8057,6 @@
         }
       },
 "end": {
-"identity": 2242,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-200"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1650,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2012-2891"
-            }
-          },
-          "relationship": {
-"identity": 18124,
-"start": 1650,
-"end": 2242,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2242,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-200"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1650,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2012-2891"
-        }
-      },
-"end": {
 "identity": 14808,
 "labels": [
           "cause"
@@ -8146,6 +8146,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1651,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-5017"
+        }
+      },
+"end": {
+"identity": 2242,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-200"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1651,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-5017"
+            }
+          },
+          "relationship": {
+"identity": 35989,
+"start": 1651,
+"end": 2242,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2242,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-200"
             }
           }
         }
@@ -8651,60 +8705,6 @@
         }
       },
 "end": {
-"identity": 2242,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-200"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1651,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-5017"
-            }
-          },
-          "relationship": {
-"identity": 21795,
-"start": 1651,
-"end": 2242,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2242,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-200"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1651,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-5017"
-        }
-      },
-"end": {
 "identity": 839,
 "labels": [
           "cause"
@@ -8794,6 +8794,60 @@
             ],
 "properties": {
 "attacker": "attacker who convinced a user to install a malicious extension"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1652,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-11363"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1652,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-11363"
+            }
+          },
+          "relationship": {
+"identity": 30666,
+"start": 1652,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -9245,60 +9299,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1652,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-11363"
-            }
-          },
-          "relationship": {
-"identity": 10757,
-"start": 1652,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1652,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-11363"
-        }
-      },
-"end": {
 "identity": 17279,
 "labels": [
           "cause"
@@ -9334,6 +9334,60 @@
             ],
 "properties": {
 "cause": "has a heap-based buffer over-read"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1654,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-14608"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1654,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-14608"
+            }
+          },
+          "relationship": {
+"identity": 32537,
+"start": 1654,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -9839,60 +9893,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1654,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-14608"
-            }
-          },
-          "relationship": {
-"identity": 6786,
-"start": 1654,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1654,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-14608"
-        }
-      },
-"end": {
 "identity": 1414,
 "labels": [
           "consequence"
@@ -10090,6 +10090,60 @@
             ],
 "properties": {
 "attacker": "attacker"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1655,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-5122"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1655,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-5122"
+            }
+          },
+          "relationship": {
+"identity": 39167,
+"start": 1655,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -10595,60 +10649,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1655,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-5122"
-            }
-          },
-          "relationship": {
-"identity": 21705,
-"start": 1655,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1655,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-5122"
-        }
-      },
-"end": {
 "identity": 623,
 "labels": [
           "cause"
@@ -10738,6 +10738,60 @@
             ],
 "properties": {
 "attacker": "remote attacker"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1656,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2015-1791"
+        }
+      },
+"end": {
+"identity": 2246,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-362"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1656,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2015-1791"
+            }
+          },
+          "relationship": {
+"identity": 38368,
+"start": 1656,
+"end": 2246,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2246,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-362"
             }
           }
         }
@@ -11243,60 +11297,6 @@
         }
       },
 "end": {
-"identity": 2246,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-362"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1656,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2015-1791"
-            }
-          },
-          "relationship": {
-"identity": 4395,
-"start": 1656,
-"end": 2246,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2246,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-362"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1656,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2015-1791"
-        }
-      },
-"end": {
 "identity": 2916,
 "labels": [
           "happened scenario"
@@ -11494,6 +11494,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1657,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-19198"
+        }
+      },
+"end": {
+"identity": 2227,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-787"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1657,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-19198"
+            }
+          },
+          "relationship": {
+"identity": 34789,
+"start": 1657,
+"end": 2227,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2227,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-787"
             }
           }
         }
@@ -11999,60 +12053,6 @@
         }
       },
 "end": {
-"identity": 2227,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-787"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1657,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-19198"
-            }
-          },
-          "relationship": {
-"identity": 10588,
-"start": 1657,
-"end": 2227,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2227,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-787"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1657,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-19198"
-        }
-      },
-"end": {
 "identity": 17250,
 "labels": [
           "cause"
@@ -12088,6 +12088,60 @@
             ],
 "properties": {
 "cause": "the '&' character is mishandled in certain contexts"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1658,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-5350"
+        }
+      },
+"end": {
+"identity": 2272,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-399"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1658,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-5350"
+            }
+          },
+          "relationship": {
+"identity": 41184,
+"start": 1658,
+"end": 2272,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2272,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-399"
             }
           }
         }
@@ -12593,60 +12647,6 @@
         }
       },
 "end": {
-"identity": 2272,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-399"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1658,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-5350"
-            }
-          },
-          "relationship": {
-"identity": 5549,
-"start": 1658,
-"end": 2272,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2272,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-399"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1658,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-5350"
-        }
-      },
-"end": {
 "identity": 1118,
 "labels": [
           "consequence"
@@ -12790,6 +12790,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1659,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-3139"
+        }
+      },
+"end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1659,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-3139"
+            }
+          },
+          "relationship": {
+"identity": 38185,
+"start": 1659,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
             }
           }
         }
@@ -13295,60 +13349,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1659,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-3139"
-            }
-          },
-          "relationship": {
-"identity": 5601,
-"start": 1659,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1659,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-3139"
-        }
-      },
-"end": {
 "identity": 12993,
 "labels": [
           "consequence"
@@ -13438,6 +13438,60 @@
             ],
 "properties": {
 "attacker": "physically proximate attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1661,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-11450"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1661,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-11450"
+            }
+          },
+          "relationship": {
+"identity": 22672,
+"start": 1661,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -13997,60 +14051,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1661,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-11450"
-            }
-          },
-          "relationship": {
-"identity": 6958,
-"start": 1661,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1661,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-11450"
-        }
-      },
-"end": {
 "identity": 60,
 "labels": [
           "attacker"
@@ -14086,6 +14086,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1662,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-5052"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1662,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-5052"
+            }
+          },
+          "relationship": {
+"identity": 39161,
+"start": 1662,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -14591,60 +14645,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1662,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-5052"
-            }
-          },
-          "relationship": {
-"identity": 21761,
-"start": 1662,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1662,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-5052"
-        }
-      },
-"end": {
 "identity": 1031,
 "labels": [
           "cause"
@@ -14734,6 +14734,60 @@
             ],
 "properties": {
 "attacker": "remote attacker"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1663,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2019-12818"
+        }
+      },
+"end": {
+"identity": 2252,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-476"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1663,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2019-12818"
+            }
+          },
+          "relationship": {
+"identity": 40077,
+"start": 1663,
+"end": 2252,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2252,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-476"
             }
           }
         }
@@ -15293,60 +15347,6 @@
         }
       },
 "end": {
-"identity": 2252,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-476"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1663,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2019-12818"
-            }
-          },
-          "relationship": {
-"identity": 13920,
-"start": 1663,
-"end": 2252,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2252,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-476"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1663,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2019-12818"
-        }
-      },
-"end": {
 "identity": 2785,
 "labels": [
           "happened scenario"
@@ -15436,6 +15436,60 @@
             ],
 "properties": {
 "attacker": "caller"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1664,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-6500"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1664,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-6500"
+            }
+          },
+          "relationship": {
+"identity": 32435,
+"start": 1664,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -15887,60 +15941,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1664,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-6500"
-            }
-          },
-          "relationship": {
-"identity": 8066,
-"start": 1664,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1664,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-6500"
-        }
-      },
-"end": {
 "identity": 14855,
 "labels": [
           "cause"
@@ -16030,6 +16030,60 @@
             ],
 "properties": {
 "cause": "A"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1665,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-0812"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1665,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-0812"
+            }
+          },
+          "relationship": {
+"identity": 30565,
+"start": 1665,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -16481,60 +16535,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1665,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-0812"
-            }
-          },
-          "relationship": {
-"identity": 15963,
-"start": 1665,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1665,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-0812"
-        }
-      },
-"end": {
 "identity": 617,
 "labels": [
           "cause"
@@ -16570,6 +16570,60 @@
             ],
 "properties": {
 "cause": "An elevation of privilege vulnerability"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1666,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-18202"
+        }
+      },
+"end": {
+"identity": 2197,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-416"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1666,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-18202"
+            }
+          },
+          "relationship": {
+"identity": 29660,
+"start": 1666,
+"end": 2197,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2197,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-416"
             }
           }
         }
@@ -17129,60 +17183,6 @@
         }
       },
 "end": {
-"identity": 2197,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-416"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1666,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-18202"
-            }
-          },
-          "relationship": {
-"identity": 12318,
-"start": 1666,
-"end": 2197,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2197,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-416"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1666,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-18202"
-        }
-      },
-"end": {
 "identity": 15247,
 "labels": [
           "cause"
@@ -17218,6 +17218,60 @@
             ],
 "properties": {
 "cause": "gather operations,"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1667,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2015-8026"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1667,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2015-8026"
+            }
+          },
+          "relationship": {
+"identity": 39532,
+"start": 1667,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -17777,60 +17831,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1667,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2015-8026"
-            }
-          },
-          "relationship": {
-"identity": 9540,
-"start": 1667,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1667,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2015-8026"
-        }
-      },
-"end": {
 "identity": 17333,
 "labels": [
           "cause"
@@ -17920,6 +17920,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1668,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2011-2862"
+        }
+      },
+"end": {
+"identity": 2215,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-264"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1668,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2011-2862"
+            }
+          },
+          "relationship": {
+"identity": 33253,
+"start": 1668,
+"end": 2215,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2215,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-264"
             }
           }
         }
@@ -18479,60 +18533,6 @@
         }
       },
 "end": {
-"identity": 2215,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-264"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1668,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2011-2862"
-            }
-          },
-          "relationship": {
-"identity": 17239,
-"start": 1668,
-"end": 2215,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2215,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-264"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1668,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2011-2862"
-        }
-      },
-"end": {
 "identity": 17028,
 "labels": [
           "cause"
@@ -18622,6 +18622,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1669,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-15377"
+        }
+      },
+"end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1669,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-15377"
+            }
+          },
+          "relationship": {
+"identity": 38147,
+"start": 1669,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
             }
           }
         }
@@ -19073,60 +19127,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1669,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-15377"
-            }
-          },
-          "relationship": {
-"identity": 6763,
-"start": 1669,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1669,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-15377"
-        }
-      },
-"end": {
 "identity": 12888,
 "labels": [
           "consequence"
@@ -19162,6 +19162,60 @@
             ],
 "properties": {
 "consequence": "lots of redundant checks on the content of crafted network traffic with a certain signature"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1670,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-21010"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1670,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-21010"
+            }
+          },
+          "relationship": {
+"identity": 39429,
+"start": 1670,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -19613,60 +19667,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1670,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-21010"
-            }
-          },
-          "relationship": {
-"identity": 14001,
-"start": 1670,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1670,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-21010"
-        }
-      },
-"end": {
 "identity": 893,
 "labels": [
           "cause"
@@ -19702,6 +19702,60 @@
             ],
 "properties": {
 "cause": "a heap buffer overflow"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1671,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2011-3927"
+        }
+      },
+"end": {
+"identity": 2273,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-19"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1671,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2011-3927"
+            }
+          },
+          "relationship": {
+"identity": 41268,
+"start": 1671,
+"end": 2273,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2273,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-19"
             }
           }
         }
@@ -20261,60 +20315,6 @@
         }
       },
 "end": {
-"identity": 2273,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-19"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1671,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2011-3927"
-            }
-          },
-          "relationship": {
-"identity": 18212,
-"start": 1671,
-"end": 2273,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2273,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-19"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1671,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2011-3927"
-        }
-      },
-"end": {
 "identity": 15120,
 "labels": [
           "cause"
@@ -20404,6 +20404,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1672,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-8172"
+        }
+      },
+"end": {
+"identity": 2241,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-17"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1672,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-8172"
+            }
+          },
+          "relationship": {
+"identity": 35972,
+"start": 1672,
+"end": 2241,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2241,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-17"
             }
           }
         }
@@ -20909,60 +20963,6 @@
         }
       },
 "end": {
-"identity": 2241,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-17"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1672,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-8172"
-            }
-          },
-          "relationship": {
-"identity": 4449,
-"start": 1672,
-"end": 2241,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2241,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-17"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1672,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-8172"
-        }
-      },
-"end": {
 "identity": 10728,
 "labels": [
           "consequence"
@@ -21106,6 +21106,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1673,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-14881"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1673,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-14881"
+            }
+          },
+          "relationship": {
+"identity": 30616,
+"start": 1673,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -21611,60 +21665,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1673,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-14881"
-            }
-          },
-          "relationship": {
-"identity": 14031,
-"start": 1673,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1673,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-14881"
-        }
-      },
-"end": {
 "identity": 17132,
 "labels": [
           "cause"
@@ -21700,6 +21700,60 @@
             ],
 "properties": {
 "cause": "buffer over-read"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1674,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-16932"
+        }
+      },
+"end": {
+"identity": 2196,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-835"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1674,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-16932"
+            }
+          },
+          "relationship": {
+"identity": 29580,
+"start": 1674,
+"end": 2196,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2196,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-835"
             }
           }
         }
@@ -22151,60 +22205,6 @@
         }
       },
 "end": {
-"identity": 2196,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-835"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1674,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-16932"
-            }
-          },
-          "relationship": {
-"identity": 6729,
-"start": 1674,
-"end": 2196,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2196,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-835"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1674,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-16932"
-        }
-      },
-"end": {
 "identity": 16994,
 "labels": [
           "cause"
@@ -22240,6 +22240,60 @@
             ],
 "properties": {
 "cause": "does not prevent infinite recursion in parameter entities"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1675,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-5772"
+        }
+      },
+"end": {
+"identity": 2206,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-415"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1675,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-5772"
+            }
+          },
+          "relationship": {
+"identity": 30513,
+"start": 1675,
+"end": 2206,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2206,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-415"
             }
           }
         }
@@ -22745,60 +22799,6 @@
         }
       },
 "end": {
-"identity": 2206,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-415"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1675,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-5772"
-            }
-          },
-          "relationship": {
-"identity": 5524,
-"start": 1675,
-"end": 2206,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2206,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-415"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1675,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-5772"
-        }
-      },
-"end": {
 "identity": 1276,
 "labels": [
           "consequence"
@@ -22942,6 +22942,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1676,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-7294"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1676,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-7294"
+            }
+          },
+          "relationship": {
+"identity": 22730,
+"start": 1676,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -23501,60 +23555,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1676,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-7294"
-            }
-          },
-          "relationship": {
-"identity": 3343,
-"start": 1676,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1676,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-7294"
-        }
-      },
-"end": {
 "identity": 60,
 "labels": [
           "attacker"
@@ -23590,6 +23590,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1677,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-11665"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1677,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-11665"
+            }
+          },
+          "relationship": {
+"identity": 22673,
+"start": 1677,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -24149,60 +24203,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1677,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-11665"
-            }
-          },
-          "relationship": {
-"identity": 6952,
-"start": 1677,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1677,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-11665"
-        }
-      },
-"end": {
 "identity": 117,
 "labels": [
           "attacker"
@@ -24238,6 +24238,60 @@
             ],
 "properties": {
 "attacker": "remote RTMP servers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1678,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2019-11810"
+        }
+      },
+"end": {
+"identity": 2252,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-476"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1678,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2019-11810"
+            }
+          },
+          "relationship": {
+"identity": 40073,
+"start": 1678,
+"end": 2252,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2252,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-476"
             }
           }
         }
@@ -24689,60 +24743,6 @@
         }
       },
 "end": {
-"identity": 2252,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-476"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1678,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2019-11810"
-            }
-          },
-          "relationship": {
-"identity": 13944,
-"start": 1678,
-"end": 2252,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2252,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-476"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1678,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2019-11810"
-        }
-      },
-"end": {
 "identity": 16961,
 "labels": [
           "cause"
@@ -24832,6 +24832,60 @@
             ],
 "properties": {
 "happened_scenario": "megasas_create_frame_pool() fails in megasas_alloc_cmds() in drivers/scsi/megaraid/megaraid_sas_base.c"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1679,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-14173"
+        }
+      },
+"end": {
+"identity": 2229,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-190"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1679,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-14173"
+            }
+          },
+          "relationship": {
+"identity": 35861,
+"start": 1679,
+"end": 2229,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2229,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-190"
             }
           }
         }
@@ -25283,60 +25337,6 @@
         }
       },
 "end": {
-"identity": 2229,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-190"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1679,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-14173"
-            }
-          },
-          "relationship": {
-"identity": 6799,
-"start": 1679,
-"end": 2229,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2229,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-190"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1679,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-14173"
-        }
-      },
-"end": {
 "identity": 1431,
 "labels": [
           "consequence"
@@ -25426,6 +25426,60 @@
             ],
 "properties": {
 "consequence": "integer overflow might occur for"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1680,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-4998"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1680,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-4998"
+            }
+          },
+          "relationship": {
+"identity": 39911,
+"start": 1680,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -25931,60 +25985,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1680,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-4998"
-            }
-          },
-          "relationship": {
-"identity": 5561,
-"start": 1680,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1680,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-4998"
-        }
-      },
-"end": {
 "identity": 1257,
 "labels": [
           "consequence"
@@ -26074,6 +26074,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1681,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-15537"
+        }
+      },
+"end": {
+"identity": 2242,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-200"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1681,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-15537"
+            }
+          },
+          "relationship": {
+"identity": 37022,
+"start": 1681,
+"end": 2242,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2242,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-200"
             }
           }
         }
@@ -26525,60 +26579,6 @@
         }
       },
 "end": {
-"identity": 2242,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-200"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1681,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-15537"
-            }
-          },
-          "relationship": {
-"identity": 6761,
-"start": 1681,
-"end": 2242,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2242,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-200"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1681,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-15537"
-        }
-      },
-"end": {
 "identity": 12589,
 "labels": [
           "consequence"
@@ -26776,6 +26776,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1682,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-8109"
+        }
+      },
+"end": {
+"identity": 2215,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-264"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1682,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-8109"
+            }
+          },
+          "relationship": {
+"identity": 34619,
+"start": 1682,
+"end": 2215,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2215,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-264"
             }
           }
         }
@@ -27281,60 +27335,6 @@
         }
       },
 "end": {
-"identity": 2215,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-264"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1682,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-8109"
-            }
-          },
-          "relationship": {
-"identity": 3218,
-"start": 1682,
-"end": 2215,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2215,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-264"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1682,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-8109"
-        }
-      },
-"end": {
 "identity": 13013,
 "labels": [
           "consequence"
@@ -27478,6 +27478,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1683,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-0555"
+        }
+      },
+"end": {
+"identity": 2242,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-200"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1683,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-0555"
+            }
+          },
+          "relationship": {
+"identity": 36441,
+"start": 1683,
+"end": 2242,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2242,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-200"
             }
           }
         }
@@ -27983,60 +28037,6 @@
         }
       },
 "end": {
-"identity": 2242,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-200"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1683,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-0555"
-            }
-          },
-          "relationship": {
-"identity": 15987,
-"start": 1683,
-"end": 2242,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2242,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-200"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1683,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-0555"
-        }
-      },
-"end": {
 "identity": 19841,
 "labels": [
           "cause"
@@ -28126,6 +28126,60 @@
             ],
 "properties": {
 "attacker": "local malicious application"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1684,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2015-8962"
+        }
+      },
+"end": {
+"identity": 2206,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-415"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1684,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2015-8962"
+            }
+          },
+          "relationship": {
+"identity": 30510,
+"start": 1684,
+"end": 2206,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2206,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-415"
             }
           }
         }
@@ -28739,60 +28793,6 @@
         }
       },
 "end": {
-"identity": 2206,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-415"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1684,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2015-8962"
-            }
-          },
-          "relationship": {
-"identity": 5657,
-"start": 1684,
-"end": 2206,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2206,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-415"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1684,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2015-8962"
-        }
-      },
-"end": {
 "identity": 19860,
 "labels": [
           "cause"
@@ -28882,6 +28882,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1686,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-5153"
+        }
+      },
+"end": {
+"identity": 2273,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-19"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1686,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-5153"
+            }
+          },
+          "relationship": {
+"identity": 41265,
+"start": 1686,
+"end": 2273,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2273,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-19"
             }
           }
         }
@@ -29387,60 +29441,6 @@
         }
       },
 "end": {
-"identity": 2273,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-19"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1686,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-5153"
-            }
-          },
-          "relationship": {
-"identity": 20632,
-"start": 1686,
-"end": 2273,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2273,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-19"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1686,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-5153"
-        }
-      },
-"end": {
 "identity": 896,
 "labels": [
           "cause"
@@ -29530,6 +29530,60 @@
             ],
 "properties": {
 "attacker": "remote attacker"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1687,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-5214"
+        }
+      },
+"end": {
+"identity": 2273,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-19"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1687,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-5214"
+            }
+          },
+          "relationship": {
+"identity": 41264,
+"start": 1687,
+"end": 2273,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2273,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-19"
             }
           }
         }
@@ -30089,60 +30143,6 @@
         }
       },
 "end": {
-"identity": 2273,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-19"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1687,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-5214"
-            }
-          },
-          "relationship": {
-"identity": 21817,
-"start": 1687,
-"end": 2273,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2273,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-19"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1687,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-5214"
-        }
-      },
-"end": {
 "identity": 119,
 "labels": [
           "attacker"
@@ -30178,6 +30178,60 @@
             ],
 "properties": {
 "attacker": "attacker who convinced a user to install a malicious extension"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1688,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-2902"
+        }
+      },
+"end": {
+"identity": 2272,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-399"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1688,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-2902"
+            }
+          },
+          "relationship": {
+"identity": 41044,
+"start": 1688,
+"end": 2272,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2272,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-399"
             }
           }
         }
@@ -30791,60 +30845,6 @@
         }
       },
 "end": {
-"identity": 2272,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-399"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1688,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-2902"
-            }
-          },
-          "relationship": {
-"identity": 19274,
-"start": 1688,
-"end": 2272,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2272,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-399"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1688,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-2902"
-        }
-      },
-"end": {
 "identity": 135,
 "labels": [
           "attacker"
@@ -30880,6 +30880,60 @@
             ],
 "properties": {
 "attacker": "attackers to"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1689,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-2448"
+        }
+      },
+"end": {
+"identity": 2215,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-264"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1689,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-2448"
+            }
+          },
+          "relationship": {
+"identity": 33301,
+"start": 1689,
+"end": 2215,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2215,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-264"
             }
           }
         }
@@ -31439,60 +31493,6 @@
         }
       },
 "end": {
-"identity": 2215,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-264"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1689,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-2448"
-            }
-          },
-          "relationship": {
-"identity": 15897,
-"start": 1689,
-"end": 2215,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2215,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-264"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1689,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-2448"
-        }
-      },
-"end": {
 "identity": 941,
 "labels": [
           "cause"
@@ -31582,6 +31582,60 @@
             ],
 "properties": {
 "attacker": "attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1690,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-14106"
+        }
+      },
+"end": {
+"identity": 2247,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-369"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1690,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-14106"
+            }
+          },
+          "relationship": {
+"identity": 39139,
+"start": 1690,
+"end": 2247,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2247,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-369"
             }
           }
         }
@@ -32087,60 +32141,6 @@
         }
       },
 "end": {
-"identity": 2247,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-369"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1690,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-14106"
-            }
-          },
-          "relationship": {
-"identity": 6810,
-"start": 1690,
-"end": 2247,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2247,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-369"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1690,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-14106"
-        }
-      },
-"end": {
 "identity": 12576,
 "labels": [
           "consequence"
@@ -32230,6 +32230,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1691,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-2915"
+        }
+      },
+"end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1691,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-2915"
+            }
+          },
+          "relationship": {
+"identity": 37344,
+"start": 1691,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
             }
           }
         }
@@ -32735,60 +32789,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1691,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-2915"
-            }
-          },
-          "relationship": {
-"identity": 19263,
-"start": 1691,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1691,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-2915"
-        }
-      },
-"end": {
 "identity": 14808,
 "labels": [
           "cause"
@@ -32878,6 +32878,60 @@
             ],
 "properties": {
 "attacker": "attackers to"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1692,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-5081"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1692,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-5081"
+            }
+          },
+          "relationship": {
+"identity": 19766,
+"start": 1692,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -33383,60 +33437,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1692,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-5081"
-            }
-          },
-          "relationship": {
-"identity": 21741,
-"start": 1692,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1692,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-5081"
-        }
-      },
-"end": {
 "identity": 19749,
 "labels": [
           "cause"
@@ -33580,6 +33580,60 @@
             ],
 "properties": {
 "happened_scenario": "caching"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1693,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-12877"
+        }
+      },
+"end": {
+"identity": 2197,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-416"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1693,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-12877"
+            }
+          },
+          "relationship": {
+"identity": 29701,
+"start": 1693,
+"end": 2197,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2197,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-416"
             }
           }
         }
@@ -34139,60 +34193,6 @@
         }
       },
 "end": {
-"identity": 2197,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-416"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1693,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-12877"
-            }
-          },
-          "relationship": {
-"identity": 6922,
-"start": 1693,
-"end": 2197,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2197,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-416"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1693,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-12877"
-        }
-      },
-"end": {
 "identity": 14808,
 "labels": [
           "cause"
@@ -34282,6 +34282,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1695,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2019-1010208"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1695,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2019-1010208"
+            }
+          },
+          "relationship": {
+"identity": 39459,
+"start": 1695,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -34787,60 +34841,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1695,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2019-1010208"
-            }
-          },
-          "relationship": {
-"identity": 12370,
-"start": 1695,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1695,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2019-1010208"
-        }
-      },
-"end": {
 "identity": 19818,
 "labels": [
           "cause"
@@ -34876,6 +34876,60 @@
             ],
 "properties": {
 "cause": "Buffer Overflow"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1696,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-1738"
+        }
+      },
+"end": {
+"identity": 2215,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-264"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1696,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-1738"
+            }
+          },
+          "relationship": {
+"identity": 34603,
+"start": 1696,
+"end": 2215,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2215,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-264"
             }
           }
         }
@@ -35435,60 +35489,6 @@
         }
       },
 "end": {
-"identity": 2215,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-264"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1696,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-1738"
-            }
-          },
-          "relationship": {
-"identity": 3312,
-"start": 1696,
-"end": 2215,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2215,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-264"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1696,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-1738"
-        }
-      },
-"end": {
 "identity": 606,
 "labels": [
           "cause"
@@ -35578,6 +35578,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1697,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-3120"
+        }
+      },
+"end": {
+"identity": 2252,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-476"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1697,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-3120"
+            }
+          },
+          "relationship": {
+"identity": 40419,
+"start": 1697,
+"end": 2252,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2252,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-476"
             }
           }
         }
@@ -36083,60 +36137,6 @@
         }
       },
 "end": {
-"identity": 2252,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-476"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1697,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-3120"
-            }
-          },
-          "relationship": {
-"identity": 5608,
-"start": 1697,
-"end": 2252,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2252,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-476"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1697,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-3120"
-        }
-      },
-"end": {
 "identity": 12916,
 "labels": [
           "consequence"
@@ -36334,6 +36334,60 @@
             ],
 "properties": {
 "attacker": "remote authenticated users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1698,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-6156"
+        }
+      },
+"end": {
+"identity": 2246,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-362"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1698,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-6156"
+            }
+          },
+          "relationship": {
+"identity": 38362,
+"start": 1698,
+"end": 2246,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2246,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-362"
             }
           }
         }
@@ -36893,60 +36947,6 @@
         }
       },
 "end": {
-"identity": 2246,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-362"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1698,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-6156"
-            }
-          },
-          "relationship": {
-"identity": 4556,
-"start": 1698,
-"end": 2246,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2246,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-362"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1698,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-6156"
-        }
-      },
-"end": {
 "identity": 17081,
 "labels": [
           "cause"
@@ -37036,6 +37036,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1699,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-11384"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1699,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-11384"
+            }
+          },
+          "relationship": {
+"identity": 30674,
+"start": 1699,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -37541,60 +37595,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1699,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-11384"
-            }
-          },
-          "relationship": {
-"identity": 10747,
-"start": 1699,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1699,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-11384"
-        }
-      },
-"end": {
 "identity": 60,
 "labels": [
           "attacker"
@@ -37630,6 +37630,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1700,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-4162"
+        }
+      },
+"end": {
+"identity": 2272,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-399"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1700,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-4162"
+            }
+          },
+          "relationship": {
+"identity": 41240,
+"start": 1700,
+"end": 2272,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2272,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-399"
             }
           }
         }
@@ -38135,60 +38189,6 @@
         }
       },
 "end": {
-"identity": 2272,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-399"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1700,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-4162"
-            }
-          },
-          "relationship": {
-"identity": 2585,
-"start": 1700,
-"end": 2272,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2272,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-399"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1700,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-4162"
-        }
-      },
-"end": {
 "identity": 10858,
 "labels": [
           "consequence"
@@ -38332,6 +38332,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1701,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-18584"
+        }
+      },
+"end": {
+"identity": 2227,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-787"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1701,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-18584"
+            }
+          },
+          "relationship": {
+"identity": 34788,
+"start": 1701,
+"end": 2227,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2227,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-787"
             }
           }
         }
@@ -38837,60 +38891,6 @@
         }
       },
 "end": {
-"identity": 2227,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-787"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1701,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-18584"
-            }
-          },
-          "relationship": {
-"identity": 10599,
-"start": 1701,
-"end": 2227,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2227,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-787"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1701,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-18584"
-        }
-      },
-"end": {
 "identity": 14760,
 "labels": [
           "cause"
@@ -38926,6 +38926,60 @@
             ],
 "properties": {
 "cause": "the CAB block input buffer is one byte too small for the maximal Quantum block"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1702,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-2853"
+        }
+      },
+"end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1702,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-2853"
+            }
+          },
+          "relationship": {
+"identity": 37336,
+"start": 1702,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
             }
           }
         }
@@ -39485,60 +39539,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1702,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-2853"
-            }
-          },
-          "relationship": {
-"identity": 19290,
-"start": 1702,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1702,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-2853"
-        }
-      },
-"end": {
 "identity": 17034,
 "labels": [
           "cause"
@@ -39682,6 +39682,60 @@
             ],
 "properties": {
 "attacker": "attackers to"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1703,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2015-5685"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1703,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2015-5685"
+            }
+          },
+          "relationship": {
+"identity": 22723,
+"start": 1703,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -40133,60 +40187,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1703,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2015-5685"
-            }
-          },
-          "relationship": {
-"identity": 4345,
-"start": 1703,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1703,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2015-5685"
-        }
-      },
-"end": {
 "identity": 1499,
 "labels": [
           "consequence"
@@ -40276,6 +40276,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1704,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-7023"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1704,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-7023"
+            }
+          },
+          "relationship": {
+"identity": 40034,
+"start": 1704,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -40781,60 +40835,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1704,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-7023"
-            }
-          },
-          "relationship": {
-"identity": 2528,
-"start": 1704,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1704,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-7023"
-        }
-      },
-"end": {
 "identity": 10433,
 "labels": [
           "consequence"
@@ -40978,6 +40978,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1705,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-9588"
+        }
+      },
+"end": {
+"identity": 2234,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-388"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1705,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-9588"
+            }
+          },
+          "relationship": {
+"identity": 35888,
+"start": 1705,
+"end": 2234,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2234,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-388"
             }
           }
         }
@@ -41483,60 +41537,6 @@
         }
       },
 "end": {
-"identity": 2234,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-388"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1705,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-9588"
-            }
-          },
-          "relationship": {
-"identity": 4473,
-"start": 1705,
-"end": 2234,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2234,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-388"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1705,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-9588"
-        }
-      },
-"end": {
 "identity": 10517,
 "labels": [
           "consequence"
@@ -41680,6 +41680,60 @@
             ],
 "properties": {
 "attacker": "guest OS users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1706,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2011-2803"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1706,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2011-2803"
+            }
+          },
+          "relationship": {
+"identity": 39275,
+"start": 1706,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -42239,60 +42293,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1706,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2011-2803"
-            }
-          },
-          "relationship": {
-"identity": 17277,
-"start": 1706,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1706,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2011-2803"
-        }
-      },
-"end": {
 "identity": 19752,
 "labels": [
           "cause"
@@ -42382,6 +42382,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1707,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-4652"
+        }
+      },
+"end": {
+"identity": 2246,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-362"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1707,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-4652"
+            }
+          },
+          "relationship": {
+"identity": 38379,
+"start": 1707,
+"end": 2246,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2246,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-362"
             }
           }
         }
@@ -42887,60 +42941,6 @@
         }
       },
 "end": {
-"identity": 2246,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-362"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1707,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-4652"
-            }
-          },
-          "relationship": {
-"identity": 3248,
-"start": 1707,
-"end": 2246,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2246,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-362"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1707,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-4652"
-        }
-      },
-"end": {
 "identity": 10528,
 "labels": [
           "consequence"
@@ -43084,6 +43084,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1708,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2015-8543"
+        }
+      },
+"end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1708,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2015-8543"
+            }
+          },
+          "relationship": {
+"identity": 38220,
+"start": 1708,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
             }
           }
         }
@@ -43589,60 +43643,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1708,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2015-8543"
-            }
-          },
-          "relationship": {
-"identity": 4325,
-"start": 1708,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1708,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2015-8543"
-        }
-      },
-"end": {
 "identity": 1508,
 "labels": [
           "consequence"
@@ -43786,6 +43786,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1709,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-18353"
+        }
+      },
+"end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1709,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-18353"
+            }
+          },
+          "relationship": {
+"identity": 37112,
+"start": 1709,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
             }
           }
         }
@@ -44345,60 +44399,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1709,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-18353"
-            }
-          },
-          "relationship": {
-"identity": 22584,
-"start": 1709,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1709,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-18353"
-        }
-      },
-"end": {
 "identity": 1076,
 "labels": [
           "cause"
@@ -44488,6 +44488,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1710,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-5225"
+        }
+      },
+"end": {
+"identity": 2273,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-19"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1710,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-5225"
+            }
+          },
+          "relationship": {
+"identity": 41262,
+"start": 1710,
+"end": 2273,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2273,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-19"
             }
           }
         }
@@ -44993,60 +45047,6 @@
         }
       },
 "end": {
-"identity": 2273,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-19"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1710,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-5225"
-            }
-          },
-          "relationship": {
-"identity": 21829,
-"start": 1710,
-"end": 2273,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2273,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-19"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1710,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-5225"
-        }
-      },
-"end": {
 "identity": 17316,
 "labels": [
           "cause"
@@ -45136,6 +45136,60 @@
             ],
 "properties": {
 "attacker": "remote attacker"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1711,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-4978"
+        }
+      },
+"end": {
+"identity": 2244,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-59"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1711,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-4978"
+            }
+          },
+          "relationship": {
+"identity": 38286,
+"start": 1711,
+"end": 2244,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2244,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-59"
             }
           }
         }
@@ -45641,60 +45695,6 @@
         }
       },
 "end": {
-"identity": 2244,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-59"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1711,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-4978"
-            }
-          },
-          "relationship": {
-"identity": 9574,
-"start": 1711,
-"end": 2244,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2244,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-59"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1711,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-4978"
-        }
-      },
-"end": {
 "identity": 29,
 "labels": [
           "attacker"
@@ -45730,6 +45730,60 @@
             ],
 "properties": {
 "attacker": "local users"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1712,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2011-2351"
+        }
+      },
+"end": {
+"identity": 2272,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-399"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1712,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2011-2351"
+            }
+          },
+          "relationship": {
+"identity": 41106,
+"start": 1712,
+"end": 2272,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2272,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-399"
             }
           }
         }
@@ -46181,60 +46235,6 @@
         }
       },
 "end": {
-"identity": 2272,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-399"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1712,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2011-2351"
-            }
-          },
-          "relationship": {
-"identity": 18008,
-"start": 1712,
-"end": 2272,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2272,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-399"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1712,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2011-2351"
-        }
-      },
-"end": {
 "identity": 14914,
 "labels": [
           "cause"
@@ -46270,6 +46270,60 @@
             ],
 "properties": {
 "cause": "does not prevent monitoring of the clipboard after a paste event"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1713,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-5336"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1713,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-5336"
+            }
+          },
+          "relationship": {
+"identity": 22749,
+"start": 1713,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -46775,60 +46829,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1713,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-5336"
-            }
-          },
-          "relationship": {
-"identity": 3236,
-"start": 1713,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1713,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-5336"
-        }
-      },
-"end": {
 "identity": 1195,
 "labels": [
           "consequence"
@@ -46972,6 +46972,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1714,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2019-11470"
+        }
+      },
+"end": {
+"identity": 2274,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-400"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1714,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2019-11470"
+            }
+          },
+          "relationship": {
+"identity": 41323,
+"start": 1714,
+"end": 2274,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2274,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-400"
             }
           }
         }
@@ -47585,60 +47639,6 @@
         }
       },
 "end": {
-"identity": 2274,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-400"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1714,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2019-11470"
-            }
-          },
-          "relationship": {
-"identity": 13952,
-"start": 1714,
-"end": 2274,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2274,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-400"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1714,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2019-11470"
-        }
-      },
-"end": {
 "identity": 14832,
 "labels": [
           "cause"
@@ -47728,6 +47728,60 @@
             ],
 "properties": {
 "attacker": "attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1715,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-5079"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1715,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-5079"
+            }
+          },
+          "relationship": {
+"identity": 19767,
+"start": 1715,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -48233,60 +48287,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1715,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-5079"
-            }
-          },
-          "relationship": {
-"identity": 21739,
-"start": 1715,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1715,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-5079"
-        }
-      },
-"end": {
 "identity": 1059,
 "labels": [
           "cause"
@@ -48376,6 +48376,60 @@
             ],
 "properties": {
 "attacker": "remote attacker"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1716,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-9428"
+        }
+      },
+"end": {
+"identity": 2272,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-399"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1716,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-9428"
+            }
+          },
+          "relationship": {
+"identity": 41190,
+"start": 1716,
+"end": 2272,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2272,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-399"
             }
           }
         }
@@ -48881,60 +48935,6 @@
         }
       },
 "end": {
-"identity": 2272,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-399"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1716,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-9428"
-            }
-          },
-          "relationship": {
-"identity": 4442,
-"start": 1716,
-"end": 2272,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2272,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-399"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1716,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-9428"
-        }
-      },
-"end": {
 "identity": 10730,
 "labels": [
           "consequence"
@@ -49078,6 +49078,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1717,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2018-15858"
+        }
+      },
+"end": {
+"identity": 2252,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-476"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1717,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2018-15858"
+            }
+          },
+          "relationship": {
+"identity": 40352,
+"start": 1717,
+"end": 2252,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2252,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-476"
             }
           }
         }
@@ -49637,60 +49691,6 @@
         }
       },
 "end": {
-"identity": 2252,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-476"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1717,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2018-15858"
-            }
-          },
-          "relationship": {
-"identity": 10654,
-"start": 1717,
-"end": 2252,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2252,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-476"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1717,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2018-15858"
-        }
-      },
-"end": {
 "identity": 921,
 "labels": [
           "cause"
@@ -49834,6 +49834,60 @@
             ],
 "properties": {
 "attacker": "local attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1720,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-4263"
+        }
+      },
+"end": {
+"identity": 2250,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-119"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1720,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-4263"
+            }
+          },
+          "relationship": {
+"identity": 40017,
+"start": 1720,
+"end": 2250,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2250,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-119"
             }
           }
         }
@@ -50285,60 +50339,6 @@
         }
       },
 "end": {
-"identity": 2250,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-119"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1720,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-4263"
-            }
-          },
-          "relationship": {
-"identity": 2578,
-"start": 1720,
-"end": 2250,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2250,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-119"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1720,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-4263"
-        }
-      },
-"end": {
 "identity": 12973,
 "labels": [
           "consequence"
@@ -50428,6 +50428,60 @@
             ],
 "properties": {
 "cause": "has unspecified impact and remote vectors related to a crafted *plane"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1721,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-12665"
+        }
+      },
+"end": {
+"identity": 2226,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-772"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1721,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-12665"
+            }
+          },
+          "relationship": {
+"identity": 34751,
+"start": 1721,
+"end": 2226,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2226,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-772"
             }
           }
         }
@@ -50879,60 +50933,6 @@
         }
       },
 "end": {
-"identity": 2226,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-772"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1721,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-12665"
-            }
-          },
-          "relationship": {
-"identity": 6932,
-"start": 1721,
-"end": 2226,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2226,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-772"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1721,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-12665"
-        }
-      },
-"end": {
 "identity": 14875,
 "labels": [
           "cause"
@@ -50968,6 +50968,60 @@
             ],
 "properties": {
 "cause": "a memory leak vulnerability"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1723,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2017-12993"
+        }
+      },
+"end": {
+"identity": 2210,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-125"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1723,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2017-12993"
+            }
+          },
+          "relationship": {
+"identity": 32469,
+"start": 1723,
+"end": 2210,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2210,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-125"
             }
           }
         }
@@ -51419,60 +51473,6 @@
         }
       },
 "end": {
-"identity": 2210,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-125"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1723,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2017-12993"
-            }
-          },
-          "relationship": {
-"identity": 6900,
-"start": 1723,
-"end": 2210,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2210,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-125"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1723,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2017-12993"
-        }
-      },
-"end": {
 "identity": 17422,
 "labels": [
           "cause"
@@ -51508,6 +51508,60 @@
             ],
 "properties": {
 "cause": "has a buffer over-read in print-juniper.c, several functions"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1724,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-2523"
+        }
+      },
+"end": {
+"identity": 2191,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-20"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1724,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-2523"
+            }
+          },
+          "relationship": {
+"identity": 22738,
+"start": 1724,
+"end": 2191,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2191,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-20"
             }
           }
         }
@@ -52067,60 +52121,6 @@
         }
       },
 "end": {
-"identity": 2191,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-20"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1724,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-2523"
-            }
-          },
-          "relationship": {
-"identity": 3303,
-"start": 1724,
-"end": 2191,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2191,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-20"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1724,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-2523"
-        }
-      },
-"end": {
 "identity": 12753,
 "labels": [
           "consequence"
@@ -52264,6 +52264,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1725,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2013-2904"
+        }
+      },
+"end": {
+"identity": 2272,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-399"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1725,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2013-2904"
+            }
+          },
+          "relationship": {
+"identity": 41042,
+"start": 1725,
+"end": 2272,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2272,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-399"
             }
           }
         }
@@ -52769,60 +52823,6 @@
         }
       },
 "end": {
-"identity": 2272,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "CWE-399"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1725,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2013-2904"
-            }
-          },
-          "relationship": {
-"identity": 19276,
-"start": 1725,
-"end": 2272,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2272,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "CWE-399"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1725,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2013-2904"
-        }
-      },
-"end": {
 "identity": 988,
 "labels": [
           "cause"
@@ -52912,6 +52912,60 @@
             ],
 "properties": {
 "attacker": "attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1726,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2014-3167"
+        }
+      },
+"end": {
+"identity": 2243,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "NULL"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1726,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2014-3167"
+            }
+          },
+          "relationship": {
+"identity": 37299,
+"start": 1726,
+"end": 2243,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2243,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "NULL"
             }
           }
         }
@@ -53471,60 +53525,6 @@
         }
       },
 "end": {
-"identity": 2243,
-"labels": [
-          "CWE ID"
-        ],
-"properties": {
-"cwe_id": "NULL"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1726,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2014-3167"
-            }
-          },
-          "relationship": {
-"identity": 20409,
-"start": 1726,
-"end": 2243,
-"type": "CWE_NUM",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 2243,
-"labels": [
-              "CWE ID"
-            ],
-"properties": {
-"cwe_id": "NULL"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1726,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2014-3167"
-        }
-      },
-"end": {
 "identity": 17437,
 "labels": [
           "cause"
@@ -53614,6 +53614,60 @@
             ],
 "properties": {
 "attacker": "remote attackers"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "p": {
+"start": {
+"identity": 1727,
+"labels": [
+          "CVE ID"
+        ],
+"properties": {
+"cve_id": "CVE-2016-10318"
+        }
+      },
+"end": {
+"identity": 2215,
+"labels": [
+          "CWE ID"
+        ],
+"properties": {
+"cwe_id": "CWE-264"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1727,
+"labels": [
+              "CVE ID"
+            ],
+"properties": {
+"cve_id": "CVE-2016-10318"
+            }
+          },
+          "relationship": {
+"identity": 34561,
+"start": 1727,
+"end": 2215,
+"type": "cwe number",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2215,
+"labels": [
+              "CWE ID"
+            ],
+"properties": {
+"cwe_id": "CWE-264"
             }
           }
         }
@@ -53938,60 +53992,6 @@
             ],
 "properties": {
 "score": "4.0"
-            }
-          }
-        }
-      ],
-"length": 1.0
-    }
-  },
-  {
-    "p": {
-"start": {
-"identity": 1727,
-"labels": [
-          "CVE ID"
-        ],
-"properties": {
-"cve_id": "CVE-2016-10318"
-        }
-      },
-"end": {
-"identity": 17559,
-"labels": [
-          "version"
-        ],
-"properties": {
-"version": "the Linux kernel before 4.7.4"
-        }
-      },
-"segments": [
-        {
-          "start": {
-"identity": 1727,
-"labels": [
-              "CVE ID"
-            ],
-"properties": {
-"cve_id": "CVE-2016-10318"
-            }
-          },
-          "relationship": {
-"identity": 20384,
-"start": 1727,
-"end": 17559,
-"type": "version",
-"properties": {
-
-            }
-          },
-          "end": {
-"identity": 17559,
-"labels": [
-              "version"
-            ],
-"properties": {
-"version": "the Linux kernel before 4.7.4"
             }
           }
         }
